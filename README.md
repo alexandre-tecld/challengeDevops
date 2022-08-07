@@ -12,7 +12,7 @@ docker image build -t (nome image) .
 docker container run -p 8000:8000 (nome image)
 
 ##### Entre no container e execute
- python manage.py migrar
+ python manage.py migrate
  python manage.py createsuperuser
  
  ##### acesse no navegador 
